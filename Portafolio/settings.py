@@ -77,14 +77,15 @@ WSGI_APPLICATION = 'Portafolio.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'miportafolio',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': '03071593*Marita',
-        'HOST': 'localhost',
-        'PORT': '3306'
+        'PASSWORD': 'J4XzrVMi27aO3STpuBxR',
+        'HOST': 'containers-us-west-122.railway.app',
+        'PORT': '6987'
     }
 }
 
